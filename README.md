@@ -7,4 +7,5 @@ The steps to run a basic simulation are simple:
 4. launch most
 
 You then see a GUI, which will allow you to select several options of your run. When running on the HPC, you must untick run with GUI, since it's not supported. 
+When launching PLASIM, you can instead run it with a bash script.
 
