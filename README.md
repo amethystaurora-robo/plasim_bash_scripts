@@ -7,5 +7,8 @@ These bash scripts can be used alongside PlaSim.
 - `compress_files.slurm` — compresses specific files in `/data/` (modifiable)  
 - `compression.slurm` — general-purpose compression script (recommended for long jobs)  
 - `plasim*.slurm` — runs scripts with different values of *k*  
-- `resampling_amoc.py` — implementation of the rare event algorithm  
+- `resampling_amoc.py` — implementation of the rare event algorithm
+- `unpack_files.slurm`- de-compress files for binary output
+- `make_outputs.slurm`- fix problem with binary output in plasim_* scripts
+-  `traj_updated.slurm`- make variable selections using cdo
 
